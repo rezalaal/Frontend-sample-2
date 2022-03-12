@@ -6,7 +6,6 @@
     margin: -150px;
     transform-origin: right;
     animation: color-change 5s linear infinite;
-    z-index: -1;
 }
 
 .glowing:nth-child(even){

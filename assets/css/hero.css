@@ -1,6 +1,7 @@
 #hero {
     min-height: 80vh;     
     margin-top: 60px;
+     
 }
 
 .hero__item {
@@ -10,7 +11,9 @@
     align-items: center;
 }
 
-.hero__item--left h1 {
+.hero__item--left h1 {    
+    position: relative;
+    z-index: 1;
     color: snow;
     font-size: 5rem;
 }
@@ -190,3 +193,26 @@
         transform: rotate(360deg);
     }
 }
+
+.hero__item--left__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;     
+}
+
+
+.btn_axies {
+    margin: 1rem;
+    border: 1px solid #3C2E97;
+    border-radius: 4rem;
+}
+
+.btn_axies i {
+    margin: 0 1rem;
+}
+
+ .btn_axies:hover {
+     color:#3C2E97;
+ }
